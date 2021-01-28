@@ -2,17 +2,49 @@ body{
     background: #fff;
     color: #202124;
 }
-
 body, a, p {
     font-family: Arial, sans-serif;
 }
-
 body, html{
     font-size: small;
 }
-
 #googlelogo{
     width: auto;
+    height: 92px;
+    position: relative;
+    display: block;
     padding-top: 109px;
-    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.top{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 24px;
+    vertical-align: middle;
+    float: right;
+    
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#searchbox{
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 476px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.footer{
+    display: block;
+    margin: 0;
+    float: none;
+    line-height: 40px;
 }
