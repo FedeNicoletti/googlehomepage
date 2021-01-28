@@ -48,3 +48,25 @@ a {
     float: none;
     line-height: 40px;
 }
+.buttons{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+    color: #3c4043;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+#buttonsearch{
+    margin-right: 15px;
+}
