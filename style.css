@@ -1,0 +1,18 @@
+body{
+    background: #fff;
+    color: #202124;
+}
+
+body, a, p {
+    font-family: Arial, sans-serif;
+}
+
+body, html{
+    font-size: small;
+}
+
+#googlelogo{
+    width: auto;
+    padding-top: 109px;
+    text-align: center;
+}
