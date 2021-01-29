@@ -16,6 +16,7 @@ body, html{
     padding-top: 109px;
     margin: auto;
     margin-bottom: 20px;
+    margin-left: 530px;
 }
 .top{
     display: flex;
@@ -49,22 +50,19 @@ a {
     line-height: 40px;
 }
 .buttons{
-    display: flex;
+    display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    text-align: center;
     font-size: 14px;
     line-height: 27px;
     color: #3c4043;
     border-radius: 4px;
     height: 36px;
     min-width: 54px;
+    margin: 0 auto;
     margin-top: 20px;
     cursor: pointer;
-    align-items: center;
-    position: relative;
-    align-content: center;
-    text-align: center;
+   
 }
 
 #buttonsearch{
