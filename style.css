@@ -9,6 +9,9 @@ body, html{
     font-size: small;
     margin: 0;
     padding: 0;
+    min-width: 565px;
+    width: auto !important;
+    width: 565px;
 }
 a {
     color: rgba(0,0,0,0.87);
@@ -64,18 +67,19 @@ a:hover{
     height: 92px;
     display: block;
     padding-top: 109px;
-}
-
-form {
-    margin: auto;
 }   
+form{
+    height: 70px;
+}
 #searchbox{
     display: block;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 130px;
+    padding-left: 50px ;
+    padding-right: 50px ;
     position: relative;
     width: 476px;
-    height: 34px !important;
+    height: 40px !important;
     text-align: start;
     appearance: textfield;
     line-height: 34px;
@@ -84,28 +88,56 @@ form {
     border: 1px solid #dfe1e5;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
     font-size: 16px;
+    outline: none;
 }
 #searchbox:hover{
-    box-shadow:2px 2px #dfe1e8 ;
+    box-shadow:2px 2px 9px #dfe1e8 ;
 }
-#searchbox:{
-    width: 476px;
-    height: 34px !important;
-    border: none;
-    border-radius: 50px;
-    border: 1px solid #dfe1e5;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+#searchbox:focus{
+    box-shadow:2px 2px 9px #dfe1e9 ;
 }
 .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#buttonsearch{
     font-size: 14px;
     line-height: 27px;
-    color:  #70757a;
-    border-radius: 4px;
-    height: 36px;
-    min-width: 54px;
-    margin: 0 auto;
+    height: 36px; 
+    margin-left: auto;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
-    text-align: center;
+    border-radius: 4px;
+    color:#3c4043;
+    background-color: #f8f9fa;
+    border: none;
+    outline: none;
+}
+#buttonsearch:hover{
+    border: 1px solid  #dddddd ;
+}
+
+#buttonfeelinglucky{
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px; 
+    margin-left: 5px;
+    margin-right: auto;
+    padding-left: 10px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    color:#3c4043;
+    background-color: #f8f9fa;
+    border: none;
+    outline: none;
+}
+#buttonfeelinglucky:hover{
+    border: 1px solid  #dddddd;
 }
 .micbutton {
     width: 25px;
@@ -113,7 +145,7 @@ form {
     display: block;
     margin: auto;
     margin-top: 24px;
-    transform: translate(890%,-225%);
+    transform: translate(260px,-229%);
     border: none;
     background: transparent;
     background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
@@ -122,11 +154,11 @@ form {
     cursor: pointer;
 }
 .searchbutton {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display: block;
     margin: auto;
-    transform: translate(-999%,-390%);
+    transform: translate(-260px,-516%);
     border: none;
     background: transparent;
     background-image: url(https://img.icons8.com/android/24/000000/search.png);
@@ -139,6 +171,7 @@ form {
 
 footer a{
     display: inline-block;
+    color: #70757a;
 }
 
 #footerleft{
@@ -148,7 +181,16 @@ footer a{
 #footerright{
     float: right;
 }
-
+#footerup{
+    position:fixed;
+    left:0px;
+    bottom: 40px;
+    font-size: 10pt;
+    height:40px;
+    width:100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+}
 footer{
     position:fixed;
     left:0px;
