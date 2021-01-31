@@ -1,0 +1,204 @@
+body{
+    background: #fff;
+    color: #202124;
+}
+body, a, p {
+    font-family: Arial, sans-serif;
+}
+body, html{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    min-width: 565px;
+    width: auto !important;
+    width: 565px;
+}
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*header*/
+
+.top ul{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    
+}
+.top li{
+    float: right;
+}
+.materialicon{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+  }
+
+/*main*/
+
+#googlelogo{
+    margin: 0 auto;
+    width: auto;
+    height: 92px;
+    display: block;
+    padding-top: 109px;
+    
+}
+.googlelogo{
+    width: 100%;
+    margin: 0 auto;
+    height: 92px;
+    display: block;
+    padding-top: 109px;
+}   
+form{
+    height: 70px;
+}
+#searchbox{
+    display: block;
+    margin: auto;
+    margin-top: 130px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    position: relative;
+    width: 476px;
+    height: 40px !important;
+    text-align: start;
+    appearance: textfield;
+    line-height: 34px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+    font-size: 16px;
+    outline: none;
+}
+#searchbox:hover{
+    box-shadow:2px 2px 9px #dfe1e8 ;
+}
+#searchbox:focus{
+    box-shadow:2px 2px 9px #dfe1e9 ;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#buttonsearch{
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px; 
+    margin-left: auto;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color:#3c4043;
+    background-color: #f8f9fa;
+    border: none;
+    outline: none;
+}
+#buttonsearch:hover{
+    border: 1px solid  #dddddd ;
+}
+
+#buttonfeelinglucky{
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px; 
+    margin-left: 5px;
+    margin-right: auto;
+    padding-left: 10px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    color:#3c4043;
+    background-color: #f8f9fa;
+    border: none;
+    outline: none;
+}
+#buttonfeelinglucky:hover{
+    border: 1px solid  #dddddd;
+}
+.micbutton {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    transform: translate(260px,-229%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.searchbutton {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin: auto;
+    transform: translate(-260px,-516%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer a{
+    display: inline-block;
+    color: #70757a;
+}
+
+#footerleft{
+    float: left;
+}
+
+#footerright{
+    float: right;
+}
+#footerup{
+    position:fixed;
+    left:0px;
+    bottom: 40px;
+    font-size: 10pt;
+    height:40px;
+    width:100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+}
+footer{
+    position:fixed;
+    left:0px;
+    bottom: 0px;
+    font-size: 10pt;
+    height:40px;
+    width:100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+    color: #70757a;
+}
