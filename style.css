@@ -7,64 +7,156 @@ body, a, p {
 }
 body, html{
     font-size: small;
+    margin: 0;
+    padding: 0;
 }
-#googlelogo{
-    width: auto;
-    height: 92px;
-    position: relative;
-    display: block;
-    padding-top: 109px;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-left: 530px;
-}
-.top{
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
-    line-height: 24px;
-    vertical-align: middle;
-    float: right;
-    
-}
-
 a {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     cursor: pointer;
-}
-
-#searchbox{
-    display: flex;
-    margin: auto;
-    position: relative;
-    width: 476px;
-    height: 34px;
-    line-height: 34px;
-}
-
-.footer{
     display: block;
-    margin: 0;
-    float: none;
-    line-height: 40px;
+    padding: 8px;
+    background-color: transparent;
 }
-.buttons{
-    display: inline-block;
+a:hover{
+    text-decoration: underline;
+}
+/*header*/
+
+.top ul{
     list-style-type: none;
     text-decoration: none;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    
+}
+.top li{
+    float: right;
+}
+.materialicon{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+  }
+
+/*main*/
+
+#googlelogo{
+    margin: 0 auto;
+    width: auto;
+    height: 92px;
+    display: block;
+    padding-top: 109px;
+    
+}
+.googlelogo{
+    width: 100%;
+    margin: 0 auto;
+    height: 92px;
+    display: block;
+    padding-top: 109px;
+}
+
+form {
+    margin: auto;
+}   
+#searchbox{
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    position: relative;
+    width: 476px;
+    height: 34px !important;
+    text-align: start;
+    appearance: textfield;
+    line-height: 34px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+    font-size: 16px;
+}
+#searchbox:hover{
+    box-shadow:2px 2px #dfe1e8 ;
+}
+#searchbox:{
+    width: 476px;
+    height: 34px !important;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+}
+.buttons{
     font-size: 14px;
     line-height: 27px;
-    color: #3c4043;
+    color:  #70757a;
     border-radius: 4px;
     height: 36px;
     min-width: 54px;
     margin: 0 auto;
-    margin-top: 20px;
     cursor: pointer;
-   
+    text-align: center;
+}
+.micbutton {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    transform: translate(890%,-225%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.searchbutton {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    transform: translate(-999%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
-#buttonsearch{
-    margin-right: 15px;
+/*footer*/
+
+footer a{
+    display: inline-block;
+}
+
+#footerleft{
+    float: left;
+}
+
+#footerright{
+    float: right;
+}
+
+footer{
+    position:fixed;
+    left:0px;
+    bottom: 0px;
+    font-size: 10pt;
+    height:40px;
+    width:100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+    color: #70757a;
 }
